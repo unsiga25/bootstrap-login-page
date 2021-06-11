@@ -1,0 +1,61 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+#login {
+  height: 100vh;
+  position: relative;
+}
+/* #login::after {
+  background: url("https://picsum.photos/1920/1080");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+
+.col-6:first-child {
+  color: white;
+}
+h1 {
+  max-width: 400px;
+}
+p {
+  max-width: 550px;
+}
+input {
+  border-right: 1px solid white !important;
+}
+span.input-group-text {
+  background-color: inherit;
+  border-left: 1px solid white !important;
+}
+.fa-google {
+  color: #4285f4;
+}
+.fa-twitter {
+  color: #00acee;
+}
+.fa-facebook-f {
+  color: #3b5998;
+}
+@media (min-width: 768px) {
+  #login::after {
+    background: url("https://picsum.photos/1920/1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
