@@ -35,11 +35,34 @@ span.input-group-text {
   background-color: inherit;
   border-left: 1px solid white !important;
 }
-.fa-google {
-  color: #4285f4;
+.g-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.g-button:hover {
+  background-color: #4285f4 !important;
+  border-radius: 1px solid #4285f4 !important;
+}
+.google-img {
+  width: 16px;
+  height: 16px;
+}
+.t-button:hover {
+  background-color: #00acee !important;
+  border-radius: 1px solid #00acee !important;
+}
+.t-button:hover .fa-twitter {
+  color: white;
 }
 .fa-twitter {
   color: #00acee;
+}
+.f-button:hover {
+  background-color: #4267b2 !important;
+  border-radius: 1px solid #4267b2 !important;
+}
+.f-button:hover .fa-facebook-f {
+  color: white;
 }
 .fa-facebook-f {
   color: #3b5998;
